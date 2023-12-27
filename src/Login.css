@@ -1,0 +1,92 @@
+.signUp input{
+    height: 45px;
+    width: 300px;
+    border-radius: 8px;
+}
+.signUp button{
+    margin-left: 10px;
+    border: none;
+    padding: 12px 45px 12px 50px;
+    border-radius: 50px;
+}
+.loginButton{
+    margin-left: 0px;
+}
+.inputLogin{
+    background-color: chocolate;
+    margin-left: 100px !important;
+}
+.inputRegister{
+    background-color: rgba(0, 0, 0, 0.025) !important;
+    color: white;
+    border: 1px solid white !important;
+}
+.inputRegister:hover{
+    background-color: rgb(127, 216, 49) !important;
+    color: black;
+    border: none !important;
+}
+.signUp span{
+    margin-left: 5px;
+    color: rgb(163, 92, 42) !important;
+
+}
+::placeholder{
+  padding-left: 20px;
+}
+.inputLogin:hover{
+    background-color: rgb(127, 216, 49) !important;
+    
+}
+
+.notification{
+    background-color: whitesmoke;
+    position: absolute;
+    width: 350px;
+    padding: 30px;
+    height: 400px;
+    top: 100px;
+    border-radius: 5px;
+    display: none;
+}
+.notification1{
+    background-color: whitesmoke;
+    position: absolute;
+    width: 350px;
+    padding: 30px;
+    height: 400px;
+    top: 100px;
+    border-radius: 5px;
+    display: block;
+}
+.login{
+    position: relative;
+    background-color: black;
+    width: 320px;
+    margin-left: 500px;
+    margin-top: 200px;
+    padding: 40px;
+    border-radius: 20px;
+}
+.notification p{
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+.notification .close{
+    margin-left: 100px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.notification .fa-check{
+   border: 1px solid green;
+   font-size: 100px;
+   padding: 15px 20px 15px 20px;
+   border-radius: 100%;
+   color: green;
+   
+}
+.notification .sucess{
+    margin-left: 100px;
+}
